@@ -18,43 +18,19 @@ Given a list of shopping, calculate the total cost of those items.
 
 Kindly upload the code repository on GitHub and provide the details of the same.
 
-# Project stucture
-
-src/
-  controllers/
-    CartController.ts
-  models/
-    Product.ts
-  offers/
-    Offer.ts
-    BuyOneGetOne.ts
-    BuyThreeForTwo.ts
-  routes/
-    cartRoutes.ts
-  services/
-    CartService.ts
-  offerMap.ts
-  index.ts
-package.json
-tsconfig.json
-README.md
 
 # Setup & Run
-1) Clone the repository:
-git clone <your-github-repo-url>
-cd <repo-folder>
-
-2) Install dependencies:
+1) Install dependencies:
 npm install
 
-3) Run in development (auto-reload):
+2) Run in development (auto-reload):
 npm run dev
 
 or build & run:
 npm run build
 npm start
 
-4) Server will run at:
+3) Server will run at:
 http://localhost:3000
 
 # API Endpoints
