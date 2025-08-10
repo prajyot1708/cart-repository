@@ -96,17 +96,17 @@ curl -X POST http://localhost:3000/cart/calculate-total \
 
 # Running Tests
 
-1. Install test dependencies
+1. Install test dependencies:
 
-npm install --save-dev jest ts-jest @types/jest supertest @types/supertest
-npx ts-jest config:init
+- npm install --save-dev jest ts-jest @types/jest supertest @types/supertest
+- npx ts-jest config:init
 
-2. Test files
+2. Test files:
 
-Unit Tests → tests/CartService.test.ts
-API Tests → tests/CartController.test.ts
+- Unit Tests → tests/CartService.test.ts
+- API Tests → tests/CartController.test.ts
 
-3. Run all tests
+3. Run all tests:
 npm test
 
 Example output:
