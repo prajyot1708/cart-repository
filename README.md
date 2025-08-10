@@ -94,9 +94,21 @@ curl -X POST http://localhost:3000/cart/calculate-total \
     "totalPrice": "1.35"
 }
 
+# Running Tests
 
+1. Install test dependencies
 
+npm install --save-dev jest ts-jest @types/jest supertest @types/supertest
+npx ts-jest config:init
 
+2. Test files
 
+Unit Tests → tests/CartService.test.ts
+API Tests → tests/CartController.test.ts
 
+3. Run all tests
+npm test
 
+Example output:
+Test Suites: 2 passed, 2 total
+Tests:       9 passed, 9 total
